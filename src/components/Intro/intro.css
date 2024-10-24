@@ -1,0 +1,70 @@
+
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    width: 85%; 
+    margin: 0 auto; 
+    color: white; 
+}
+
+.introContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.Hello {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.introtext {
+    font-size: 46px; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+
+.introName {
+    color: red; 
+}
+
+
+.introPara {
+    font-size: 16px; 
+    margin-bottom: 20px; 
+}
+
+
+.hireMeBtn {
+    display: flex;
+    align-items: center; 
+    background-color: white; 
+    border: 1px solid #ccc; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-weight: bold; 
+}
+
+
+.hireme {
+    height: 20px; 
+    margin-right: 8px;
+}
+
+.hireMeBtn:hover {
+    color: red; /* Change text color to red on hover */
+}
+
+.me {
+    height: 550px; 
+    /* border-radius: 50%;  */
+    margin-left: 20px; 
+    margin-top: 40px;
+}

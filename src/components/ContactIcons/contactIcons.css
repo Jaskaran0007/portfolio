@@ -1,0 +1,21 @@
+.contactIcons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the icons horizontally */
+    width: 85%; /* Set width to 85% of the parent container */
+    margin: 0 auto; /* Center the container on the page */
+    padding: 20px 0; /* Add some vertical padding */
+  }
+  
+  .contactIcons a {
+    margin: 0 15px; /* Add horizontal margin between icons */
+  }
+  
+  .contactIcons img {
+    width: 40px; /* Set a fixed width for the icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Add a transition effect for hover */
+  }
+  
+  .contactIcons img:hover {
+    transform: scale(1.1); /* Scale up the icon on hover */
+  }

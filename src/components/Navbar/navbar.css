@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    width: 85%; 
+    margin: 0 auto; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: rgb(30, 30, 30); 
+    z-index: 1000; 
+}
+
+.logo {
+    height: 50px; 
+}
+
+.desktopMenu {
+    display: flex;
+    gap: 20px; 
+}
+
+.desktopMenulistItem {
+    text-decoration: none; 
+    color: white;
+    padding: 10px; 
+    position: relative; 
+    transition: color 0.3s; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.desktopMenulistItem::after {
+    content: '';
+    display: block;
+    height: 2px; 
+    background-color: red; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px; 
+    transform: scaleX(0); 
+    transition: transform 0.3s ease; 
+}
+
+.desktopMenulistItem:hover::after {
+    transform: scaleX(1); 
+}
+
+.desktopMenulistItem:hover {
+    color: red; 
+}
+
+.contactMeBtn {
+    display: flex;
+    align-items: center; 
+    background-color: white; 
+    border: 1px solid #ccc; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-weight: bold;
+}
+
+.contact {
+    height: 20px; 
+    margin-right: 8px; 
+}
+
+.contactMeBtn:hover {
+    color: red;
+}
+.active{
+    color: red;
+}

@@ -1,0 +1,40 @@
+.clientsSection {
+    margin-top: 40px;
+    text-align: center;
+    width: 85%; /* Set the width of the section to 85% */
+    margin: 0 auto; /* Center the section */
+  }
+  
+  .clientsHeader {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .client {
+    margin-bottom: 20px;
+  }
+  
+  .clientLogo {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .anotherPara {
+    margin-top: 20px;
+    padding: 5px; /* Add some padding inside the box */
+    border: 2px solid red; /* Red border */
+    border-radius: 5px; /* Optional: rounded corners */
+    color: white; /* Text color */
+    display: inline-block; 
+    font-size: 16.5px;
+    margin-top: -10px;
+  }
+  .brLine{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .clientsPara{
+    font-size: 20px;
+  }

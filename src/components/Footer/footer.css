@@ -1,0 +1,10 @@
+.footer {
+    background-color: rgb(30, 30, 30); /* Dark background to match the site */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Add vertical padding */
+    width: 85%; /* Set width to 85% of the parent container */
+    margin: 0 auto; /* Center the footer on the page */
+    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Optional: Light border on top */
+    font-size: 14px; /* Adjust font size if necessary */
+  }

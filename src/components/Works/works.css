@@ -1,0 +1,66 @@
+.worksSection {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .worksHeader {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .worksPara {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .myProjects {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .project1, .project2, .comingSoon {
+    text-align: center;
+  }
+  
+  .projectImage {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comingSoonImage {
+    width: 300px;
+    height: auto;
+    margin-bottom: 5px;
+    position: relative;
+    top: -40px;
+  }
+  
+  .comingSoonText {
+    position: relative;
+    top: -33px;
+    margin-top: -23px;
+    font-size: 20;
+    font-size: 20px;
+  }
+  
+  .LoginSignup, .ChatGPT {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .comingSoon {
+    margin-top: 10px;
+  }
+  
+  .brLine {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }

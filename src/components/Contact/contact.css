@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(30, 30, 30); /* Set background color for the entire site */
+  color: white; /* Set default text color to white */
+}
+
+.contactHeading {
+  text-align: center; /* Center the heading text */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-size: 24px; /* Adjust font size if necessary */
+  font-weight: bold; /* Make the heading bold */
+  margin-top: 30px;
+}
+
+.ContactSection {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the sections */
+  padding: 20px; /* Add padding around the section */
+  width: 85%; /* Set width to 85% */
+  margin: 0 auto; /* Center the section on the page */
+}
+
+.ContactInfo,
+.AddressInfo {
+  flex: 1; /* Allow both sections to take equal space */
+  margin: 0 10px; /* Add some margin between sections */
+  background-color: rgba(255, 255, 255, 0.1); /* Light background for sections */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for sections */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside the box */
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+.form-group {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 15px; /* Space between form groups */
+  font-weight: bold;
+}
+
+.form-group label {
+  width: 60px; /* Fixed width for labels */
+  margin-right: 10px; /* Space between label and input */
+  color: white;
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1; /* Allow inputs to take remaining space */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 16px; /* Increase font size for better readability */
+  border: 1px solid white; 
+  color: white;
+  border-radius: 5px;
+}
+.SubmitBtn{
+  height:28px;
+  width: 200px;
+  margin-left: 150px;
+  font-size: medium;
+  border-radius: 7px;
+  font-weight: bold;
+  color: black;
+  background-color:white;
+}
+.contactHeader{
+text-align: center;
+margin-bottom: 15px;
+border-bottom: 2px solid red;
+}.SubmitBtn:hover{
+  background-color: rgb(44, 1, 1);
+  color: white;
+}
+.contactPara{
+  font-size:x-large; 
+}
+.hirePara{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: smaller;
+}
